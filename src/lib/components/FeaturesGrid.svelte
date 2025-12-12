@@ -6,14 +6,14 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-16">
             <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                AI That Learns How Your<br />Firm Thinks and Works
+                Built for High-Volume<br />Acquisitions Teams
             </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Integrations -->
+            <!-- Email Integration -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Integrations</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Email Integration</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="grid grid-cols-3 gap-4">
                         {#each [1, 2, 3, 4, 5, 6] as i}
@@ -24,13 +24,13 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Connect seamlessly with your existing providers and file systems. Enhance your workflows by interacting with internal & external data sources.
+                    Connect to Outlook, Gmail, or any email provider. Planisphere automatically monitors your inbox and captures every broker deal without disrupting your workflow.
                 </p>
             </div>
 
-            <!-- Prompt Library -->
+            <!-- Custom Buy Box -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Prompt Library</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Custom Buy Box</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px] space-y-2">
                         <div class="h-2 bg-gray-100 rounded w-1/3 mb-4"></div>
@@ -43,28 +43,28 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Choose from our library of professionally written prompts aimed at automating your common workflows end-to-end.
+                    Define your investment criteria once—property type, location, size, cap rate, and more. Planisphere scores every deal against your buy box automatically.
                 </p>
             </div>
 
-            <!-- Guided Implementation -->
+            <!-- White-Glove Onboarding -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Guided Implementation</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">White-Glove Onboarding</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="flex -space-x-2">
-                        <div class="h-10 w-10 rounded-full bg-blue-100 border-2 border-white flex items-center justify-center text-blue-600 text-xs">A</div>
-                        <div class="h-10 w-10 rounded-full bg-green-100 border-2 border-white flex items-center justify-center text-green-600 text-xs">B</div>
-                        <div class="h-10 w-10 rounded-full bg-purple-100 border-2 border-white flex items-center justify-center text-purple-600 text-xs">C</div>
+                        <div class="h-10 w-10 rounded-full bg-primary-100 border-2 border-white flex items-center justify-center text-primary-600 text-xs">A</div>
+                        <div class="h-10 w-10 rounded-full bg-primary-200 border-2 border-white flex items-center justify-center text-primary-700 text-xs">B</div>
+                        <div class="h-10 w-10 rounded-full bg-primary-300 border-2 border-white flex items-center justify-center text-primary-800 text-xs">C</div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    White-glove engagement and implementation with our team of ex-bankers and private equity investors.
+                    Dedicated implementation support from our team who understand real estate acquisitions. We'll configure your buy box, integrate your systems, and train your team.
                 </p>
             </div>
 
-            <!-- Custom-Trained Models -->
+            <!-- Real Estate AI -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Custom-Trained Models</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Real Estate AI</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="relative">
                         <!-- Tree structure visualization -->
@@ -77,23 +77,23 @@
                             <div class="h-8 w-px bg-gray-300"></div>
                         </div>
                         <div class="flex justify-center">
-                            <div class="h-8 w-8 bg-[#0B231E] rounded flex items-center justify-center text-white text-xs">AI</div>
+                            <div class="h-8 w-8 bg-primary-700 rounded flex items-center justify-center text-white text-xs">AI</div>
                         </div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Custom-trained LLMs built for finance, using professionally labeled data tailored to the workflows and precision standards of investment banking.
+                    AI models trained specifically on real estate deal flow, property types, market terminology, and investment criteria to understand your acquisitions process.
                 </p>
             </div>
 
-            <!-- Governance & Permissions -->
+            <!-- Deal Analytics -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Governance & Permissions</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Deal Analytics</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px]">
                         <div class="flex justify-between mb-4">
-                            <div class="text-[10px] font-bold">122</div>
-                            <div class="text-[10px] font-bold">2.14</div>
+                            <div class="text-[10px] font-bold">247</div>
+                            <div class="text-[10px] font-bold">5.8%</div>
                         </div>
                         <div class="space-y-2">
                             <div class="h-px bg-gray-100 w-full"></div>
@@ -104,17 +104,17 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Granular permission controls, role-based access management, comprehensive audit trails, and customizable governance policies to streamline compliance and safeguard your data.
+                    Track deal velocity, broker performance, market trends, and conversion rates. Never lose visibility into your pipeline or miss critical pricing data again.
                 </p>
             </div>
 
-            <!-- Single Tenant Deployment -->
+            <!-- Template Export -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Single Tenant Deployment</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Template Export</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="grid grid-cols-3 gap-1">
                         {#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as i}
-                            <div class={`h-8 w-8 border border-gray-200 ${i === 5 ? 'bg-[#0B231E] flex items-center justify-center' : 'bg-white'}`}>
+                            <div class={`h-8 w-8 border border-gray-200 ${i === 5 ? 'bg-primary-700 flex items-center justify-center' : 'bg-white'}`}>
                                 {#if i === 5}
                                     <div class="h-2 w-2 bg-white rounded-full"></div>
                                 {/if}
@@ -123,7 +123,7 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Flexible deployment options to meet your security and infrastructure needs.
+                    Export structured deal data directly into your existing Excel underwriting and review templates. No workflow disruption.
                 </p>
             </div>
         </div>

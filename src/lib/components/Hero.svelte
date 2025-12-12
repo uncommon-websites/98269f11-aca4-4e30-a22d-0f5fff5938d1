@@ -29,10 +29,9 @@
   <div class="relative w-full max-w-7xl mx-auto px-4">
     <div class="relative aspect-[21/9] w-full overflow-hidden rounded-lg shadow-2xl" style="background: linear-gradient(to bottom, oklch(0.262 0.051 172.552), oklch(0.378 0.077 168.94));">
       <img 
-        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" 
+        src="/generated/image-modern-commercial-real-estate-skyline-wi-1765516793846-0.webp" 
         alt="Commercial Real Estate Buildings" 
         class="h-full w-full object-cover opacity-60"
-        generating
       />
       
       <!-- Overlay Search Bar -->

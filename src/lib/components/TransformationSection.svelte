@@ -15,10 +15,9 @@
             <div class="relative">
                 <div class="relative rounded-lg overflow-hidden shadow-2xl bg-primary-950 aspect-[4/3]">
                     <img 
-                        src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop" 
+                        src="/generated/image-urban-commercial-buildings-and-apartment-1765516798273-2.webp" 
                         alt="Commercial buildings" 
                         class="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-overlay"
-                        generating
                     />
                     
                     <!-- Floating Interface Element -->

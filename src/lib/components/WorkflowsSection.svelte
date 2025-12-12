@@ -42,75 +42,79 @@
                 </p>
             </div>
 
-            <!-- Card 2: AI Table Interface -->
+            <!-- Card 2: Buy Box Triage -->
             <div class="group">
-                <div class="mb-6 bg-[#0B231E] rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex flex-col">
+                <div class="mb-6 bg-primary-950 rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex flex-col">
                      <!-- Mock Interface -->
                      <div class="bg-white rounded-lg p-4 shadow-lg w-full max-w-[90%] mx-auto mt-auto mb-4 transform translate-y-2 transition-transform group-hover:translate-y-0">
-                        <div class="text-[10px] text-gray-500 mb-2">Tariff impact on top manufacturing firms</div>
+                        <div class="text-[10px] text-gray-500 mb-2">Buy Box Match Analysis</div>
                         <div class="flex items-center gap-2 mb-3">
-                            <div class="h-4 w-4 bg-green-800 rounded flex items-center justify-center text-white text-[8px]">AI</div>
-                            <span class="text-[10px] text-gray-400">Found 12 sources</span>
+                            <div class="h-4 w-4 bg-primary-700 rounded flex items-center justify-center text-white text-[8px]">AI</div>
+                            <span class="text-[10px] text-gray-400">Scored 47 deals this week</span>
                         </div>
                         <div class="space-y-2 border-t pt-2">
                             <div class="grid grid-cols-3 gap-2 text-[8px] text-gray-400 font-medium">
-                                <div>Company</div>
-                                <div class="col-span-2 text-right">% Revenue from Int.</div>
+                                <div>Property</div>
+                                <div class="text-center">Match</div>
+                                <div class="text-right">Cap Rate</div>
                             </div>
                             <div class="grid grid-cols-3 gap-2 text-[9px] items-center">
-                                <div class="flex items-center gap-1"><div class="h-2 w-2 bg-gray-200 rounded-sm"></div> General Electric</div>
-                                <div class="col-span-2 h-1.5 bg-gray-100 rounded"></div>
+                                <div class="flex items-center gap-1"><div class="h-2 w-2 bg-green-500 rounded-sm"></div> Austin MF</div>
+                                <div class="text-center text-green-600 font-medium">95%</div>
+                                <div class="text-right">5.2%</div>
                             </div>
                             <div class="grid grid-cols-3 gap-2 text-[9px] items-center">
-                                <div class="flex items-center gap-1"><div class="h-2 w-2 bg-gray-200 rounded-sm"></div> Boeing</div>
-                                <div class="col-span-2 h-1.5 bg-gray-100 rounded w-2/3 ml-auto"></div>
+                                <div class="flex items-center gap-1"><div class="h-2 w-2 bg-yellow-500 rounded-sm"></div> Dallas Retail</div>
+                                <div class="text-center text-yellow-600 font-medium">68%</div>
+                                <div class="text-right">6.1%</div>
                             </div>
                             <div class="grid grid-cols-3 gap-2 text-[9px] items-center">
-                                <div class="flex items-center gap-1"><div class="h-2 w-2 bg-gray-200 rounded-sm"></div> Caterpillar</div>
-                                <div class="col-span-2 h-1.5 bg-gray-100 rounded w-1/2 ml-auto"></div>
+                                <div class="flex items-center gap-1"><div class="h-2 w-2 bg-gray-300 rounded-sm"></div> Phoenix Office</div>
+                                <div class="text-center text-gray-400 font-medium">42%</div>
+                                <div class="text-right">7.8%</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h3 class="text-xl font-serif text-gray-900 mb-3">AI Table Interface</h3>
+                <h3 class="text-xl font-serif text-gray-900 mb-3">Smart Buy Box Triage</h3>
                 <p class="text-sm text-gray-500 leading-relaxed">
-                    Organize and manage data effortlessly with an interactive table interface. Sort, filter, and update information in real time, enabling structured analysis and seamless decision-making.
+                    AI scores every deal against your investment criteria. Focus only on the ~5% that truly fit while maintaining a complete record of all opportunities.
                 </p>
             </div>
 
-            <!-- Card 3: Material Creation -->
+            <!-- Card 3: Data Enrichment & Export -->
             <div class="group">
-                <div class="mb-6 bg-[#0B231E] rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex flex-col">
+                <div class="mb-6 bg-primary-950 rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex flex-col">
                      <!-- Mock Interface -->
                      <div class="bg-white rounded-lg p-4 shadow-lg w-full max-w-[90%] mx-auto mt-auto mb-4 transform translate-y-2 transition-transform group-hover:translate-y-0">
                         <div class="flex items-center gap-2 mb-3">
-                            <div class="h-4 w-4 bg-green-800 rounded flex items-center justify-center text-white text-[8px]">P</div>
-                            <span class="text-[10px] text-gray-500">Generating Powerpoint...</span>
+                            <div class="h-4 w-4 bg-primary-700 rounded flex items-center justify-center text-white text-[8px]">E</div>
+                            <span class="text-[10px] text-gray-500">Exporting to underwriting...</span>
                         </div>
                         <div class="text-[9px] text-gray-600 mb-3 leading-relaxed">
-                            Here is your requested deck. I customized your presentation template and included file with the backup data.
+                            Deal enriched with market data and comps. Exporting structured data to your Excel template.
                         </div>
                         <div class="space-y-2">
                             <div class="flex items-center justify-between p-1.5 bg-gray-50 rounded border border-gray-100">
                                 <div class="flex items-center gap-2">
-                                    <div class="h-4 w-4 bg-orange-500 rounded-sm"></div>
-                                    <span class="text-[9px] font-medium">TMT Market Overview.pptx</span>
+                                    <div class="h-4 w-4 bg-green-600 rounded-sm"></div>
+                                    <span class="text-[9px] font-medium">Austin_MF_Underwriting.xlsx</span>
                                 </div>
                                 <ArrowRight size={10} class="text-gray-400" />
                             </div>
                             <div class="flex items-center justify-between p-1.5 bg-gray-50 rounded border border-gray-100">
                                 <div class="flex items-center gap-2">
-                                    <div class="h-4 w-4 bg-green-600 rounded-sm"></div>
-                                    <span class="text-[9px] font-medium">Tech Multiples Backup.xlsx</span>
+                                    <div class="h-4 w-4 bg-blue-500 rounded-sm"></div>
+                                    <span class="text-[9px] font-medium">Market_Comps_Report.pdf</span>
                                 </div>
                                 <ArrowRight size={10} class="text-gray-400" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <h3 class="text-xl font-serif text-gray-900 mb-3">Material Creation</h3>
+                <h3 class="text-xl font-serif text-gray-900 mb-3">Data Enrichment & Export</h3>
                 <p class="text-sm text-gray-500 leading-relaxed">
-                    Generate reports, summaries, and presentations with AI-powered automation. Transform raw data into polished, professional materials while ensuring clarity and consistency.
+                    Automatically enrich deals with third-party market data, comps, and property details. Export structured data directly into your existing underwriting templates.
                 </p>
             </div>
         </div>

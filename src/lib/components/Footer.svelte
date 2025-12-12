@@ -9,13 +9,20 @@
             <div class="max-w-xl">
                 <div class="mb-8">
                     <!-- Logo mark -->
-                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 4H10V10H4V4Z" stroke="black" stroke-width="2"/>
-                        <path d="M14 14H20V20H14V14Z" stroke="black" stroke-width="2"/>
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-gray-900">
+                        <path
+                            d="M17.2235 12.5566C17.2235 15.0114 15.2335 17.0015 12.7787 17.0015C10.3239 17.0015 8.33384 15.0114 8.33384 12.5566H4.77795C4.77795 16.9753 8.36002 20.5574 12.7787 20.5574C17.1974 20.5574 20.7794 16.9753 20.7794 12.5566C20.7794 8.13797 17.1974 4.55591 12.7787 4.55591V8.11179C15.2335 8.11179 17.2235 10.1018 17.2235 12.5566Z"
+                            fill="currentColor"
+                        />
+                        <path
+                            opacity="0.5"
+                            d="M7.44485 2.77795C7.44485 5.23278 5.45483 7.22281 3 7.22281V10.7787C7.41869 10.7787 11.0007 7.19663 11.0007 2.77795H7.44485Z"
+                            fill="currentColor"
+                        />
                     </svg>
                 </div>
                 <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                    Unlock Financial AI<br />For Your Firm
+                    Turn Deal Flow Into<br />Your Competitive Edge
                 </h2>
             </div>
             <div>
@@ -63,7 +70,7 @@
         <!-- Copyright -->
         <div class="text-center border-t border-gray-100 pt-8">
             <p class="text-[10px] font-mono uppercase tracking-widest text-gray-400">
-                © {currentYear} Rogo AI
+                © {currentYear} Planisphere
             </p>
         </div>
     </div>
