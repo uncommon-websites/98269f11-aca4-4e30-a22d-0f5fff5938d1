@@ -6,7 +6,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-16">
             <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                Streamline & Automate<br />Your Workflows
+                From Inbox to Underwriting<br />In Minutes, Not Hours
             </h2>
         </div>
 
