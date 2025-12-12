@@ -11,34 +11,34 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Card 1: Firm-Specific Workflows -->
+            <!-- Card 1: Auto-Ingest Deals -->
             <div class="group">
-                <div class="mb-6 bg-[#0B231E] rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex flex-col">
+                <div class="mb-6 bg-primary-950 rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex flex-col">
                     <!-- Mock Interface -->
                     <div class="bg-white rounded-lg p-4 shadow-lg w-full max-w-[90%] mx-auto mt-auto mb-4 transform translate-y-2 transition-transform group-hover:translate-y-0">
                         <div class="flex items-center gap-2 mb-3 border-b pb-2">
-                            <div class="h-2 w-2 rounded-full bg-green-500"></div>
-                            <span class="text-[10px] font-mono text-gray-500">Benchmark Precedent Transactions</span>
+                            <div class="h-2 w-2 rounded-full bg-primary-500"></div>
+                            <span class="text-[10px] font-mono text-gray-500">Processing Broker Emails</span>
                         </div>
                         <div class="space-y-2">
-                            <div class="flex items-center gap-2 text-xs text-green-700">
-                                <Check size={12} /> <span class="text-gray-600">Running workflow...</span>
+                            <div class="flex items-center gap-2 text-xs text-primary-700">
+                                <Check size={12} /> <span class="text-gray-600">Auto-ingesting deals...</span>
                             </div>
                             <div class="flex items-center gap-2 text-xs pl-4">
-                                <span class="h-1 w-1 rounded-full bg-gray-300"></span> <span class="text-gray-400">Identifying companies</span>
+                                <span class="h-1 w-1 rounded-full bg-gray-300"></span> <span class="text-gray-400">Extracting property details</span>
                             </div>
                             <div class="flex items-center gap-2 text-xs pl-4">
-                                <span class="h-1 w-1 rounded-full bg-gray-300"></span> <span class="text-gray-400">Searching sources</span>
+                                <span class="h-1 w-1 rounded-full bg-gray-300"></span> <span class="text-gray-400">Parsing attachments</span>
                             </div>
                             <div class="flex items-center gap-2 text-xs pl-4">
-                                <span class="h-1 w-1 rounded-full bg-gray-300"></span> <span class="text-gray-400">Retrieving company metrics</span>
+                                <span class="h-1 w-1 rounded-full bg-gray-300"></span> <span class="text-gray-400">Creating deal record</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h3 class="text-xl font-serif text-gray-900 mb-3">Firm-Specific Workflows</h3>
+                <h3 class="text-xl font-serif text-gray-900 mb-3">Auto-Ingest from Inbox</h3>
                 <p class="text-sm text-gray-500 leading-relaxed">
-                    Create and automate workflows tailored to your needs, reducing manual tasks and integrating seamlessly with your existing tools. Optimize processes for research, analysis, and reporting to improve efficiency and accuracy.
+                    Connect to your email and automatically capture 100% of inbound broker deals. Extract property details, pricing, and attachments without manual data entry.
                 </p>
             </div>
 
